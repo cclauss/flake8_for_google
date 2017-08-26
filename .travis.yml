@@ -1,0 +1,186 @@
+language: python
+env:
+     - REPO=google/adb-sync
+     - REPO=google/aiyprojects-raspbian
+     - REPO=google/androguard
+     - REPO=google/android-testing-support-library
+     - REPO=google/android-wear-stitch-script
+     - REPO=google/anvil-build
+     - REPO=google/apis-client-generator
+     - REPO=google/apitools
+     - REPO=google/appengine_xblock_runtime
+     - REPO=google/AppSpeedIndex
+     - REPO=google/arithmancer
+     - REPO=google/ashier
+     - REPO=google/binplist
+     - REPO=google/blkcgroup
+     - REPO=google/bocado
+     - REPO=google/budou
+     - REPO=google/build-debian-cloud
+     - REPO=google/byterun
+     - REPO=google/capirca
+     - REPO=google/catnip
+     - REPO=google/cauliflowervest
+     - REPO=google/certificate-transparency-rfcs
+     - REPO=google/chatbase-python
+     - REPO=google/checkers
+     - REPO=google/checkers_classic
+     - REPO=google/chkstream
+     - REPO=google/ci_edit
+     - REPO=google/citest
+     - REPO=google/clif
+     - REPO=google/closure-linter
+     - REPO=google/cloudprint_logocert
+     - REPO=google/cluster-insight
+     - REPO=google/clusterfuzz-tools
+     - REPO=google/compare-codecs
+     - REPO=google/containerregistry
+     - REPO=google/copr-sundry
+     - REPO=google/coursebuilder_xblock_module
+     - REPO=google/coursebuilder-android-container-module
+     - REPO=google/coursebuilder-core
+     - REPO=google/coursebuilder-hello-world-module
+     - REPO=google/cpython-pt
+     - REPO=google/CSP-Validator
+     - REPO=google/ctfscoreboard
+     - REPO=google/dcm-video-uploader
+     - REPO=google/dotty
+     - REPO=google/dpy
+     - REPO=google/ebola-tools
+     - REPO=google/eclipse2017
+     - REPO=google/election_results_xml_validator
+     - REPO=google/elemental2
+     - REPO=google/encrypted-bigquery-client
+     - REPO=google/enjarify
+     - REPO=google/firmata.py
+     - REPO=google/fplutil
+     - REPO=google/gae-secure-scaffold-python
+     - REPO=google/gfw-deployments
+     - REPO=google/gfw-toolkit
+     - REPO=google/ggrc-core
+     - REPO=google/GL-Shader-Validator
+     - REPO=google/glazier
+     - REPO=google/google-api-python-client
+     - REPO=google/google-apputils
+     - REPO=google/google-visualization-python
+     - REPO=google/googleapps-message-recall
+     - REPO=google/grr
+     - REPO=google/gsa-admin-toolkit
+     - REPO=google/gtest-parallel
+     - REPO=google/hyou
+     - REPO=google/identity-toolkit-python-client
+     - REPO=google/import-mailbox-to-gmail
+     - REPO=google/io-captions-gadget
+     - REPO=google/ipaddr-py
+     - REPO=google/jacs
+     - REPO=google/lab_device_proxy
+     - REPO=google/ldpush
+     - REPO=google/light-my-piano
+     - REPO=google/linear-book-scanner
+     - REPO=google/macops
+     - REPO=google/mcafp
+     - REPO=google/memcache-collections
+     - REPO=google/merge_pyi
+     - REPO=google/meterstick
+     - REPO=google/mirandum
+     - REPO=google/mobly
+     - REPO=google/myelin-acorn-electron-hardware
+     - REPO=google/mysql-tools
+     - REPO=google/netbsd-gce
+     - REPO=google/network-mapper
+     - REPO=google/nixysa
+     - REPO=google/nogotofail
+     - REPO=google/nsscache
+     - REPO=google/oauth2client
+     - REPO=google/oauth2l
+     - REPO=google/objectfilter
+     - REPO=google/OctoPrint-LEDStripControl
+     - REPO=google/OctoPrint-TemperatureFailsafe
+     - REPO=google/oursebuilder-lti-module
+     - REPO=google/packet-queue
+     - REPO=google/pandas
+     - REPO=google/paramgmt
+     - REPO=google/personfinder
+     - REPO=google/pinject
+     - REPO=google/prettytensor
+     - REPO=google/protobuf
+     - REPO=google/protocall
+     - REPO=google/protorpc
+     - REPO=google/py-ast-utils
+     - REPO=google/py-html-contextual-escaping
+     - REPO=google/pygtrie
+     - REPO=google/pyringe
+     - REPO=google/python_portpicker
+     - REPO=google/python-adb
+     - REPO=google/python-atfork
+     - REPO=google/python-cloud-utils
+     - REPO=google/python-fire
+     - REPO=google/python-gflags
+     - REPO=google/python-subprocess32
+     - REPO=google/pytruth
+     - REPO=google/pytype
+     - REPO=google/pytypedecl
+     - REPO=google/pyu2f
+     - REPO=google/pywebsocket
+     - REPO=google/realtime-help
+     - REPO=google/rekall
+     - REPO=google/request-test
+     - REPO=google/resolver-library
+     - REPO=google/rfmt
+     - REPO=google/roboto
+     - REPO=google/rtc-video-quality
+     - REPO=google/rttcp
+     - REPO=google/sanitizers
+     - REPO=google/seq2seq
+     - REPO=google/shipshape-demo
+     - REPO=google/simian
+     - REPO=google/simple-reinforcement-learning
+     - REPO=google/smilesparser
+     - REPO=google/spatial-media
+     - REPO=google/sprockets
+     - REPO=google/squires
+     - REPO=google/sre_yield
+     - REPO=google/ssl_logger
+     - REPO=google/streetview-publish-client-libraries
+     - REPO=google/stress_transfer
+     - REPO=google/subpar
+     - REPO=google/support-tools
+     - REPO=google/tcp_killer
+     - REPO=google/terminal-app-function-keys
+     - REPO=google/terminal-py
+     - REPO=google/text2text
+     - REPO=google/textfsm
+     - REPO=google/timesketch
+     - REPO=google/transitfeed
+     - REPO=google/turbinia
+     - REPO=google/url_diff
+     - REPO=google/usbinfo
+     - REPO=google/vimdoc
+     - REPO=google/vogon
+     - REPO=google/vroom
+     - REPO=google/wheelbarrow
+     - REPO=google/winops
+     - REPO=google/x509test
+     - REPO=google/yapf
+     - REPO=google/youtube-8m
+     - REPO=google/Zhi
+python:
+    - 2.7.13
+    - 3.6
+cache: pip
+install:
+    - pip install hacking  # pytest  # add other testing frameworks later
+before_script:
+    - URL=https://github.com/${REPO}
+    - echo ; echo -n "flake8 testing of ${URL} on " ; python -V
+    - git clone --depth=50 --branch=master ${URL} ~/${REPO}
+    - cd ~/${REPO}
+script:
+    - echo stop the build if there are Python syntax errors or undefined names
+    - echo ; echo -n "flake8 testing of ${URL} on " ; python -V
+    - time flake8 . --count --select=E901,E999,F821,F822,F823 --show-source --statistics
+    - echo exit-zero treats all errors as warnings.  The GitHub editor is 127 chars wide
+    - time flake8 . --count --exit-zero --ignore=E111 --max-complexity=10 --max-line-length=127 --statistics
+notifications:
+    on_success: change
+    on_failure: change  # `always` will be the setting once code changes slow down

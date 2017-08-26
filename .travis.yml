@@ -164,6 +164,7 @@ env:
      - REPO=google/yapf
      - REPO=google/youtube-8m
      - REPO=google/Zhi
+     - REPO=googlei18n/noto-emoji
 python:
     - 2.7.13
     - 3.6

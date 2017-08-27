@@ -168,7 +168,6 @@ env:
 python:
     - 2.7.13
     - 3.6
-cache: pip
 install:
     - pip install hacking  # pytest  # add other testing frameworks later
 before_script:

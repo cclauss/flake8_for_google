@@ -167,15 +167,15 @@ env:
      - REPO=googlefonts/fontbakery
      - REPO=googlefonts/gf-glyphs-scripts
      - REPO=googlefonts/rubik
-     - REPO=googlefonts/robotoslab
+     # - REPO=googlefonts/robotoslab  # No problems found
      - REPO=googlefonts/fontbakery-dashboard
      - REPO=googlefonts/MooniakFontsGFVersion
      - REPO=googlefonts/MuktaGFVersion
      - REPO=googlefonts/SourceSerifProGFVersion
      - REPO=googlefonts/FiraGFVersion
      - REPO=googlefonts/LatoGFVersion
-     - REPO=googlefonts/Work-Sans
-     - REPO=googlefonts/fontcrunch
+     # - REPO=googlefonts/Work-Sans  # No problems found
+     # - REPO=googlefonts/fontcrunch  # No problems found
      - REPO=googlefonts/namecheck
      - REPO=googlei18n/noto-emoji
 python:

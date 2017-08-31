@@ -164,6 +164,19 @@ env:
      - REPO=google/yapf
      # - REPO=google/youtube-8m  # No problems found
      # - REPO=google/Zhi  # No problems found
+     - REPO=googlefonts/fontbakery
+     - REPO=googlefonts/gf-glyphs-scripts
+     - REPO=googlefonts/rubik
+     - REPO=googlefonts/robotoslab
+     - REPO=googlefonts/fontbakery-dashboard
+     - REPO=googlefonts/MooniakFontsGFVersion
+     - REPO=googlefonts/MuktaGFVersion
+     - REPO=googlefonts/SourceSerifProGFVersion
+     - REPO=googlefonts/FiraGFVersion
+     - REPO=googlefonts/LatoGFVersion
+     - REPO=googlefonts/Work-Sans
+     - REPO=googlefonts/fontcrunch
+     - REPO=googlefonts/namecheck
      - REPO=googlei18n/noto-emoji
 python:
     - 2.7.13

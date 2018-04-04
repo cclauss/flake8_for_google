@@ -1,19 +1,49 @@
 language: python
 env:
-     - REPO=googlefonts/fontbakery
-     - REPO=googlefonts/gf-glyphs-scripts
-     - REPO=googlefonts/rubik
-     # - REPO=googlefonts/robotoslab
-     - REPO=googlefonts/fontbakery-dashboard
-     - REPO=googlefonts/MooniakFontsGFVersion
-     - REPO=googlefonts/MuktaGFVersion
-     - REPO=googlefonts/SourceSerifProGFVersion
-     - REPO=googlefonts/FiraGFVersion
-     - REPO=googlefonts/LatoGFVersion
-     # - REPO=googlefonts/Work-Sans
-     # - REPO=googlefonts/fontcrunch
-     - REPO=googlefonts/namecheck
-     - REPO=googlei18n/noto-emoji
+     #- REPO=googlefonts/fontbakery
+     #- REPO=googlefonts/gf-glyphs-scripts
+     #- REPO=googlefonts/rubik
+     ## - REPO=googlefonts/robotoslab
+     #- REPO=googlefonts/fontbakery-dashboard
+     #- REPO=googlefonts/MooniakFontsGFVersion
+     #- REPO=googlefonts/MuktaGFVersion
+     #- REPO=googlefonts/SourceSerifProGFVersion
+     #- REPO=googlefonts/FiraGFVersion
+     #- REPO=googlefonts/LatoGFVersion
+     ## - REPO=googlefonts/Work-Sans
+     ## - REPO=googlefonts/fontcrunch
+     #- REPO=googlefonts/namecheck
+     #- REPO=googlei18n/noto-emoji
+    - REPO=google/OctoPrint-LEDStripControl
+    - REPO=google/aiyprojects-raspbian  # has .travis.yml file
+    - REPO=google/apitools  # has .travis.yml file
+    - REPO=google/bazel-common
+    - REPO=google/budou  # has .travis.yml file
+    - REPO=google/cauliflowervest  # has .travis.yml file
+    - REPO=google/cel-spec  # has .travis.yml file
+    - REPO=google/ci_edit
+    - REPO=google/containerregistry  # has .travis.yml file
+    - REPO=google/ctfscoreboard  # has .travis.yml file
+    - REPO=google/ggrc-core
+    - REPO=google/google-api-python-client  # has .travis.yml file
+    - REPO=google/google-reauth-python  # has .travis.yml file
+    - REPO=google/grr  # has .travis.yml file
+    - REPO=google/import-mailbox-to-gmail
+    - REPO=google/importlab
+    - REPO=google/loaner
+    - REPO=google/makerfaire-booth
+    - REPO=google/mobly  # has .travis.yml file
+    - REPO=google/mozc-devices
+    - REPO=google/nsscache  # has .travis.yml file
+    - REPO=google/nucleus
+    - REPO=google/pasta  # has .travis.yml file
+    - REPO=google/python-adb  # has .travis.yml file
+    - REPO=google/python-cloud-utils
+    - REPO=google/pytype
+    - REPO=google/rekall
+    - REPO=google/timesketch  # has .travis.yml file
+    - REPO=google/transitfeed  # has .travis.yml file
+    - REPO=google/yapf  # has .travis.yml file
 python:
     - 2.7.13
     - 3.6
